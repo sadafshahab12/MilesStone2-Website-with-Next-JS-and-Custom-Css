@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const Service = () => {
   return (
     <div>
-           <section className="our-work animate__animated animate__slideInUp animate__slow animate__delay-3s">
+           <section className="our-work animate__animated animate__slideInUp animate__slow">
         <div className="our-work-section">
           <div className="our-work-left">
             <Image
