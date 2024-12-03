@@ -2,6 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import Button from '../components/ui/Button'
 import 'animate.css';
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Code & Connect | Contact",
+};
 const Contact = () => {
   return (
     <div>

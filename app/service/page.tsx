@@ -2,7 +2,10 @@ import React from "react";
 import Button from "../components/ui/Button";
 import Image from "next/image";
 import Card from "../components/ui/Card";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Code & Connect | Service",
+};
 const Service = () => {
   return (
     <div>

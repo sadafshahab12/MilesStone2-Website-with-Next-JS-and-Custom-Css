@@ -1,5 +1,9 @@
 import React from 'react'
 import PostCard from '../components/ui/PostCard'
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Code & Connect | Blog",
+};
 
 const Blog = () => {
   return (
