@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const Service = () => {
   return (
     <div>
-      <section className="our-work animate__animated animate__slideInUp animate__slow ">
+           <section className="our-work animate__animated animate__slideInUp animate__slow animate__delay-3s">
         <div className="our-work-section">
           <div className="our-work-left">
             <Image
@@ -24,10 +24,17 @@ const Service = () => {
             <h3>What We Do</h3>
             <h1>We Develop Product That People Love to Use.</h1>
             <p>
-              At <span>Code & Connect</span>, we create user-friendly products
-              that solve real problems, offering seamless experiences through
-              creativity, innovation, and user-centered design.
+              At <span>Code & Connect</span>, we create user-friendly products that solve real problems, offering seamless experiences through creativity, innovation, and user-centered design.
             </p>
+            <div className="our-work-left-mb">
+            <Image
+              src="/images/what we do.png"
+              alt="our-work-img"
+              width={800}
+              height={500}
+              className="our-work-img"
+            />
+          </div>
             <div className="WWd">
               <div className="WWD-card">
                 <div className="WWD-icon-bg">
